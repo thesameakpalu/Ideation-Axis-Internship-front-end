@@ -1,0 +1,12 @@
+.gridContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+.gridContainer .arow{
+    grid-area: 1/1;
+}
+.gridContainer .mainContainer{
+    grid-area: 1/1;
+}

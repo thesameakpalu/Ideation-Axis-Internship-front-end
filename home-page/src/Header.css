@@ -1,0 +1,15 @@
+.rightItemsContainer{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.rightItemsContainer .polygon{
+    grid-area: 1/1;
+}
+
+.rightItemsContainer .image{
+    grid-area: 1/1;
+}
+
